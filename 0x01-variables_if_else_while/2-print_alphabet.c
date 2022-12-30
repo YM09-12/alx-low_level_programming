@@ -3,24 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - prints a random number and states whether
- *	it is positive, negative, or zero.
- *
+ * main - print alphabet in lowercase.
  * Return: Always 0.
  */
 int main(void)
 {
-int n;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-
-if (n > 0)
-printf("%d is positive\n", n);
-else if (n < 0)
-	printf("%d is negative\n", n);
-else
-	printf("%d is zero\n", n);
-
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
+putchar('\n');
 return (0);
 }
