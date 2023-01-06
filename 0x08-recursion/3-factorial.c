@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * int factorial - calculate factorial of a given number
+ * factorial - calculate factorial of a number
  *
  * @n: the number to calculate factorial
  *
  * Return: integer value
  */
 
-int factorial(int n);
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
