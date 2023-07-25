@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
   * main - prints text
+  *
   * Return: Always 1 (Success)
 */
 int main(void)
