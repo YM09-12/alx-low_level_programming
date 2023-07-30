@@ -3,21 +3,23 @@
 
 /**
   * main - prints alphabet in lowercase
-  * Return: Alwaya (Success)
+  * Return: Always (Success)
   */
 
 int main(void)
+
 {
-	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar (c);
-		}
-
-		putchar ('\n');
-
-		return (0);
+	if (low != e && low != q)
+	putchar (low);
+	}
+	putchar ('\n');
+	return (0);
 }
