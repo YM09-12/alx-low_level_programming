@@ -3,7 +3,7 @@
 
 /**
   * main - prints alphabet in lowercase
-  * Returns: Always (Success)
+  * Return: Always (Success)
   */
 
 int main(void)
